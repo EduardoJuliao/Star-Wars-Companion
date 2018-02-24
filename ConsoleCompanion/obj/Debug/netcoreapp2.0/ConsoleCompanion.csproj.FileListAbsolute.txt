@@ -1,0 +1,10 @@
+c:\8BitsCoffee\Internal\Star Wars Companion\ConsoleCompanion\bin\Debug\netcoreapp2.0\ConsoleCompanion.deps.json
+c:\8BitsCoffee\Internal\Star Wars Companion\ConsoleCompanion\bin\Debug\netcoreapp2.0\ConsoleCompanion.runtimeconfig.json
+c:\8BitsCoffee\Internal\Star Wars Companion\ConsoleCompanion\bin\Debug\netcoreapp2.0\ConsoleCompanion.runtimeconfig.dev.json
+c:\8BitsCoffee\Internal\Star Wars Companion\ConsoleCompanion\bin\Debug\netcoreapp2.0\ConsoleCompanion.dll
+c:\8BitsCoffee\Internal\Star Wars Companion\ConsoleCompanion\bin\Debug\netcoreapp2.0\ConsoleCompanion.pdb
+c:\8BitsCoffee\Internal\Star Wars Companion\ConsoleCompanion\obj\Debug\netcoreapp2.0\ConsoleCompanion.csproj.CoreCompileInputs.cache
+c:\8BitsCoffee\Internal\Star Wars Companion\ConsoleCompanion\obj\Debug\netcoreapp2.0\ConsoleCompanion.AssemblyInfoInputs.cache
+c:\8BitsCoffee\Internal\Star Wars Companion\ConsoleCompanion\obj\Debug\netcoreapp2.0\ConsoleCompanion.AssemblyInfo.cs
+c:\8BitsCoffee\Internal\Star Wars Companion\ConsoleCompanion\obj\Debug\netcoreapp2.0\ConsoleCompanion.dll
+c:\8BitsCoffee\Internal\Star Wars Companion\ConsoleCompanion\obj\Debug\netcoreapp2.0\ConsoleCompanion.pdb
