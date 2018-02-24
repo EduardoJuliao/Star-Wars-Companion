@@ -8,3 +8,13 @@ C:\8BitsCoffee\Internal\Star Wars Companion\ShipServiceApi\obj\Debug\netcoreapp2
 C:\8BitsCoffee\Internal\Star Wars Companion\ShipServiceApi\obj\Debug\netcoreapp2.0\ShipServiceApi.AssemblyInfo.cs
 C:\8BitsCoffee\Internal\Star Wars Companion\ShipServiceApi\obj\Debug\netcoreapp2.0\ShipServiceApi.dll
 C:\8BitsCoffee\Internal\Star Wars Companion\ShipServiceApi\obj\Debug\netcoreapp2.0\ShipServiceApi.pdb
+c:\Users\eduardojuliao-mtz\Documents\Personal\Star-Wars-Companion\ShipServiceApi\obj\Debug\netcoreapp2.0\ShipServiceApi.csproj.CoreCompileInputs.cache
+c:\Users\eduardojuliao-mtz\Documents\Personal\Star-Wars-Companion\ShipServiceApi\obj\Debug\netcoreapp2.0\ShipServiceApi.AssemblyInfoInputs.cache
+c:\Users\eduardojuliao-mtz\Documents\Personal\Star-Wars-Companion\ShipServiceApi\obj\Debug\netcoreapp2.0\ShipServiceApi.AssemblyInfo.cs
+c:\Users\eduardojuliao-mtz\Documents\Personal\Star-Wars-Companion\ShipServiceApi\obj\Debug\netcoreapp2.0\ShipServiceApi.dll
+c:\Users\eduardojuliao-mtz\Documents\Personal\Star-Wars-Companion\ShipServiceApi\obj\Debug\netcoreapp2.0\ShipServiceApi.pdb
+c:\Users\eduardojuliao-mtz\Documents\Personal\Star-Wars-Companion\ShipServiceApi\bin\Debug\netcoreapp2.0\ShipServiceApi.deps.json
+c:\Users\eduardojuliao-mtz\Documents\Personal\Star-Wars-Companion\ShipServiceApi\bin\Debug\netcoreapp2.0\ShipServiceApi.runtimeconfig.json
+c:\Users\eduardojuliao-mtz\Documents\Personal\Star-Wars-Companion\ShipServiceApi\bin\Debug\netcoreapp2.0\ShipServiceApi.runtimeconfig.dev.json
+c:\Users\eduardojuliao-mtz\Documents\Personal\Star-Wars-Companion\ShipServiceApi\bin\Debug\netcoreapp2.0\ShipServiceApi.dll
+c:\Users\eduardojuliao-mtz\Documents\Personal\Star-Wars-Companion\ShipServiceApi\bin\Debug\netcoreapp2.0\ShipServiceApi.pdb

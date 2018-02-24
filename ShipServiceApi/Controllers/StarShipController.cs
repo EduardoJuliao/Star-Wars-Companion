@@ -6,15 +6,19 @@ using Microsoft.AspNetCore.Mvc;
 using ShipServiceApi.Models;
 using ShipServiceApi.Repository;
 
-namespace ShipServiceApi.Controllers
-{
-     [Route("api/[controller]")]
-    public class StarShipController : Controller
-    {
+namespace ShipServiceApi.Controllers {
+    [Route ("api/[controller]")]
+    public class StarShipController : Controller {
         [HttpGet]
-        public IEnumerable<StarShipModel> GetShips()
-        {
-            return StarShipRepository.GetAllStarShips().GetAwaiter().GetResult();
+        [Route ("list/{page:int?}")]
+        public async Task<IEnumerable<StarShipModel>> GetShips (int? page) {
+            return await StarShipRepository.GetStarShips (page);
+        }
+
+        [HttpGet]
+        [Route ("{id:int}")]
+        public async Task<StarShipModel> GetShip (int id) {
+            return await StarShipRepository.GetStarShip (id);
         }
     }
 }

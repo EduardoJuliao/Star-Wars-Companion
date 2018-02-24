@@ -9,9 +9,11 @@ namespace ShipServiceApi.Repository
 {
     public sealed class StarShipRepository
     {
-        public static async Task<IEnumerable<StarShipModel>> GetAllStarShips()
+        private const string ServerUrl = "https://swapi.co/api/starships";
+
+        public static async Task<IEnumerable<StarShipModel>> GetStarShips(int? page = null)
         {
-            var serverUrl = "https://swapi.co/api/starships/";
+            var serverUrl = $"{ServerUrl}{(page != null ? "/?page=" + (int)page : "")}";
             List<StarShipModel> ships = new List<StarShipModel>();
             StarWarsContent<IEnumerable<StarShipModel>> result = null;
             do
@@ -22,9 +24,13 @@ namespace ShipServiceApi.Repository
                     serverUrl = result.Next;
                     ships.AddRange(result.Results);
                 }
-            } while (result.Next != null);
+            } while (result != null && result.Next != null && page == null);
 
             return ships;
+        }
+
+        public static async Task<StarShipModel> GetStarShip(int id){
+            return await HttpClientHelper.GetFromApi<StarShipModel>($"{ServerUrl}/{id}");
         }
     }
 }

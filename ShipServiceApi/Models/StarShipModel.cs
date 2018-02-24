@@ -1,3 +1,4 @@
+using System;
 using ShipServiceApi.Helpers;
 
 namespace ShipServiceApi.Models
@@ -13,7 +14,6 @@ namespace ShipServiceApi.Models
         public string MGLT { get; set; }
         public double ConsumablesDays => Consumables == null ? 0 :Consumables.DaysInDate();
         public int MGLTValue => int.TryParse(MGLT, out int result) ? result : 0;
-        public double MGLTTimesConsumable => MGLTValue * ConsumablesDays;
-        
+        public double MGLTTimesConsumable => (MGLTValue * 24) * ConsumablesDays;
     }
 }
