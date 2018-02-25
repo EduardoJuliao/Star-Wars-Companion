@@ -12541,11 +12541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\eduardojuliao-mtz\\Documents\\Personal\\Star-Wars-Companion\\ShipServiceApi\\ShipServiceApi.csproj",
+      "projectUniqueName": "C:\\Users\\eduardojuliao-mtz\\Documents\\Personal\\Star-Wars-Companion\\ShipServiceApi\\ShipServiceApi.csproj",
       "projectName": "ShipServiceApi",
-      "projectPath": "c:\\Users\\eduardojuliao-mtz\\Documents\\Personal\\Star-Wars-Companion\\ShipServiceApi\\ShipServiceApi.csproj",
+      "projectPath": "C:\\Users\\eduardojuliao-mtz\\Documents\\Personal\\Star-Wars-Companion\\ShipServiceApi\\ShipServiceApi.csproj",
       "packagesPath": "C:\\Users\\eduardojuliao-mtz\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\eduardojuliao-mtz\\Documents\\Personal\\Star-Wars-Companion\\ShipServiceApi\\obj\\",
+      "outputPath": "C:\\Users\\eduardojuliao-mtz\\Documents\\Personal\\Star-Wars-Companion\\ShipServiceApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

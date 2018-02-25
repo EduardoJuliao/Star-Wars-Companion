@@ -25,5 +25,13 @@ namespace ConsoleCompanion.Service {
             }
             else return default(IEnumerable<StarShipModel>);
         }
+
+        public static async Task<byte[]> GetAllShipsBytes(){
+             var response = await Client.GetAsync ("http://localhost:5000/api/StarShip/list");
+            if (response.IsSuccessStatusCode) {
+                return await response.Content.ReadAsByteArrayAsync();
+            }
+            else return default(byte[]);
+        }
     }
 }
