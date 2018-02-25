@@ -9,13 +9,9 @@ using ConsoleCompanion.Service;
 namespace ConsoleCompanion {
     class Program {
         static void Main (string[] args) {
-
-            AppManager.DefaultDownloadFolder = @"c:\temp";
-
-            // Task t = ShipManager.ShowShips(); 
             
-            // t.Wait();
-            ShipManager.DownloadAllShips().Wait();
+            AppManager.Start();
+            AppManager.Manage();
         }
     }
 }

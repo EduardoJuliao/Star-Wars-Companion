@@ -1,8 +1,10 @@
+using System;
+
 namespace ConsoleCompanion.Models
 {
-    public class StarShipModel
+    public class StarShipModel 
     {
-         public string Name { get; set; }
+        public string Name { get; set; }
         public string Model { get; set; }
         public string Manufacter { get; set; }
         public decimal CreditCost { get; set; }
@@ -11,5 +13,6 @@ namespace ConsoleCompanion.Models
         public string MGLT { get; set; }
         public int MGLTValue { get; set; }
         public double MGLTTimesConsumable {get;set;}
+
     }
 }
