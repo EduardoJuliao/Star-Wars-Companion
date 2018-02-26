@@ -42,7 +42,7 @@ namespace ConsoleCompanion {
 
         static void ShowMenu () {
             Console.WriteLine ("\t\tMENU\t\t");
-            Console.WriteLine ("Press the menu key followed by enter to access a functionality");
+            Console.WriteLine ("Press the menu key to access a functionality");
             Console.WriteLine ("Press ESC key to exit.");
             Console.WriteLine ("1 - Show all whips");
             Console.WriteLine ("2 - Download all Ships");
