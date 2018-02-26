@@ -1,15 +1,5 @@
 # Documentation
 
-## Architeture
-
-The system is dividided into
-
-## Companion
-
-### Console
-
-### Web Angular
-
 ## Calculation
 
 Every star ship has its own time before it need to ressuply. Let`s take Milleniun Falcon for example.
@@ -28,6 +18,5 @@ With this, we can know that this ship can run:
 
 The given example shows a input of 1.000.000 MGLT.
 
-1.000.000 / 108.000 = 9,259259259259259 ~= 9
-
-## Pre requistes
+1.000.000 / 108.000 = 9,259259259259259 
+which translates to 9 stops before resupply
