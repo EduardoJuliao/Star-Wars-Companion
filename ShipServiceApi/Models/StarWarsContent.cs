@@ -1,5 +1,8 @@
 namespace ShipServiceApi.Models
 {
+    ///<sumary>
+    /// Encapsulates the swapi list result
+    ///</sumary>
     public class StarWarsContent<T>
     {
         public int Count { get; set; }

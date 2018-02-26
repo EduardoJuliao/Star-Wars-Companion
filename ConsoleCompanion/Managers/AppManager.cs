@@ -1,11 +1,28 @@
 using System;
+using System.IO;
+using System.Threading;
+using ConsoleCompanion.Service;
+using Microsoft.Extensions.Configuration;
 
 namespace ConsoleCompanion {
     public class AppManager {
         public static string DefaultDownloadFolder { get; set; }
+        public static IConfiguration Configuration { get; set; }
 
         public static void Start () {
+            Configuration =  new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json")
+            .Build(); 
+
             Console.BufferHeight = 500;
+
+            while(!StarShipService.CheckConnection()){
+                Console.Clear();
+                Console.WriteLine("The empire have cut off our connection to the server!");
+                Console.WriteLine("Trying again in 3 second.");
+                Thread.Sleep(3000);
+            }
         }
 
         public static void End () {
@@ -30,6 +47,7 @@ namespace ConsoleCompanion {
             Console.WriteLine ("1 - Show all whips");
             Console.WriteLine ("2 - Download all Ships");
             Console.WriteLine ("3 - Check stops for desired distance.");
+            Console.WriteLine ("4 - Check stops for desired distance - all ships.");
             Console.WriteLine ("9 - Access application options");
         }
 
@@ -40,6 +58,8 @@ namespace ConsoleCompanion {
                 ShipManager.DownloadAllShips().Wait();
             } else if (key == ConsoleKey.D3 || key == ConsoleKey.NumPad3){
                 ShipManager.ShipNumberStop().Wait();
+            } else if (key == ConsoleKey.D4 || key == ConsoleKey.NumPad4){
+                ShipManager.ShipNumberStopAll().Wait();
             } else if (key == ConsoleKey.Escape){
                 return;
             } else{

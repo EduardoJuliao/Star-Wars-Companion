@@ -4,6 +4,9 @@ using ShipServiceApi.Helpers;
 namespace ShipServiceApi.Models
 {
     
+    ///<sumary>
+    /// Star Ship Model for the api
+    ///</sumary>
     public class StarShipModel
     {
         public string Name { get; set; }

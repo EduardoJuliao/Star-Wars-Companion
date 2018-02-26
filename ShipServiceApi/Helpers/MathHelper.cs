@@ -2,6 +2,10 @@ using System;
 
 namespace ShipServiceApi.Helpers {
     public static class MathHelper {
+
+        ///<sumary>
+        /// Transform the api date into a set of how much days has in the given date
+        ///</sumary>
         public static double DaysInDate (this string value) {
             var splited = value.ToLower ().Split (" ");
             int number;
@@ -14,7 +18,7 @@ namespace ShipServiceApi.Helpers {
                     date = date.AddDays(number);
                     break;
                 case 'w':
-                    date = date.AddDays(number * 30);
+                    date = date.AddDays(number * 7);
                     break;
                 case 'm':
                     date = date.AddMonths(number);
